@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   padding-top: 10rem;
   background-color: #f3f9fd;
@@ -408,6 +408,18 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   z-index: 1;
+}
+.banner-wrapper {
+  max-width: 56.25rem; 
+  /* background-color: red; */
+  margin: 0 auto;
+  
+}
+
+.hero-content {
+  align-content: center;
+  margin-top: 3rem;
+  
 }
 
 
@@ -477,10 +489,7 @@ h1, h2, h3, h4, h5, h6 {
 .particle {
     background-color: #f3f9fd;
 }
-.particles-js-canvas-el {
-    background-color: #red;
 
-}
 
 #hero {
 }
